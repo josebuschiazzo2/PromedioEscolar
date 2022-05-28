@@ -30,7 +30,7 @@ function noteStudent (position:number , Name:string):number
 console.clear();
 let countstudent: number = noteStudent(-1,"I dunno");
 let NamesStudents: string[] = new Array (countstudent);
-let note1:number[]= new Array (countstudent); //Las creo para mantener las notas 
+let note1:number[]= new Array (countstudent); //Las creo para mantener las notas (no hice matriz porque estabamos practivando vectores)
 let note2:number[]= new Array (countstudent); //Las creo para mantener las notas 
 let note3:number[]= new Array (countstudent); //Las creo para mantener las notas 
 let averagenote: number[]= new Array (countstudent);
