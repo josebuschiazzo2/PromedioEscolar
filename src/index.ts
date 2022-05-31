@@ -54,3 +54,16 @@ for (let i:number=0;i<countstudent;i++)
 {
   console.log("El promedio de " + NamesStudents[i] + " es: "+ averagenote[i].toPrecision(2));
 }
+/*let buscarUno: string = String(
+  prompt(`Ingrese nombre a buscar promedio anual: `)
+);
+let aux1: number = alumnosIngresados.indexOf(buscarUno);
+
+// validar si el nombre existe
+while (aux1 === undefined) {
+  console.log(` Apellido no encontrado vuelva a ingresar `);
+  buscarUno = String(
+    prompt(` vuelva a ingrese nombre a buscar promedio anual: `)
+  );
+  aux1 = alumnosIngresados.indexOf(buscarUno);
+}/*
